@@ -114,3 +114,9 @@ a {
 .content-info {
     margin-bottom: 40px;
 }
+
+.footer {
+    font-size: 10px;
+    margin-top: 100%;
+    text-align: center;
+}
