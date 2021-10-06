@@ -83,7 +83,6 @@ a {
     color: #3ab6bc;
 }
 
-
 .content {
   margin-left: 17%;
   margin-top: 2.5%;
@@ -126,26 +125,41 @@ a {
 
     .sidebar {
         background-color: #2E3B63;
-        max-width: 25%;
+        max-width: 31%;
         height: 100%;
         top: 0; /* Stay at the top */
         left: 0;
         position: fixed; 
     }
 
+    .sidebar-content-logo img {
+        width: 70px;
+    }
+
+    .sidebar-content-menu li {
+        margin: 10px;
+        font-size: 15px;
+    }
+
     .content {
-        margin-left: 30%;
+        margin-left: 5%;
         margin-top: 2.5%;
         padding: 0px 70px;
     }
 
     .container {
-        min-width: 350px;
+        min-width: 100%;
         padding: 0 50px;
     }
 
     .content-title {
-        font-size: 2.2rem!important;
+        font-size: 1.8rem!important;
     } 
+
+    .footer {
+        font-size: 8px;
+        margin-top: 100%;
+        text-align: center;
+    }
 
  }
